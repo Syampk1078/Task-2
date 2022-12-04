@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>HTML and CSS for Complete Beginners: Example 2-11-2</title>
+
+		<!-- This CSS and font is purely for presentational purposes. -->
+		<link rel="stylesheet" href="css/presentation.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet" />
+	</head>
+
+	<body class="flip">
+		<section class="learn">
+			<!-- Practice area start -->
+
+			<h1>Your Order</h1>
+		<form>
+			<div>
+				<label for="name">Name
+					<input type="text" placeholder="Your full name" id="name" autofocus>
+				</label>
+				<label for="email">
+					Email address
+					<input type="email" value="chuck@roundhouse.com" disabled>
+				</label>
+			</div>
+			<div>
+				<label for="address1">Address
+				<input type="text" autofocus id="address1">
+				<input type="text" id="address-2">	
+				</label>
+			</div>
+
+			<div>
+				
+            <div>
+				<label for="order-City">City
+				<input type="text" id="order-City">
+				</label>
+			</div>
+
+				<div>
+				<label for="order-state">State
+				<select name="order-state" id="order-state">
+					<option value="Andhra Pradesh">Andhra Pradesh</option>
+					<option value="Telangana">Telangana</option>
+					<option value="Oddisa">Oddisa</option>
+					<option value="Tamil Nadu">Tamil Nadu</option>					
+     		</select>
+				</label>
+			</div>
+			<div>
+				<label for="order-zip">Zip
+				<input type="text" id="order-zip">
+				</label>
+			</div>
+			</div>
+
+			<div>
+				<label for="order-color-sample">What color samples should we send you?</label>
+
+				<label for="sample-white">
+					<input type="checkbox" name="sample-white" id="sample-white" value="White" disabled>White
+				</label>
+
+				<label for="sample-magnta">
+					<input type="checkbox" name="sample-magnta" id="sample-magnta" value="Magenta">Magenta
+				</label>
+
+				<label for="sample-coral">
+					<input type="checkbox" name="sample-coral" id="sample-coral" value="Coral">Coral
+				</label>
+
+				<label for="sample-burgundy">
+					<input type="checkbox" name="sample-burgundy" id="sample-burgundy" value="Burgundy">Burgundy
+				</label>
+
+				<label for="sample-charcoal">
+					<input type="checkbox" name="sample-charcoal" id="sample-charcoal" value="Characoal">Characoal
+				</label>
+
+			</div>
+
+			<div>
+				<label>How large is your team?</label>
+
+				<label for="small">
+					<input type="radio" name="team-size" id="small" value="small">1-5 people
+				</label>
+				<label for="medium">
+					<input type="radio" name="team-size" id="medium" value="medium">6-10 people
+				</label>
+
+				<label for="large">
+					<input type="radio" name="team-size" id="large" value="large">10+ people
+				</label>				
+
+			</div>
+				
+			<div>
+				<label for="comments">Comments</label>
+
+				<textarea name="comments" id="comments" cols="30" rows="20"></textarea>
+			</div>
+
+			<div>
+				
+				<label for="sign-up">
+					<input type="checkbox" name="sign-up" id="sign-up">Sign up for special offers
+				</label>
+			</div>
+			
+				<input type="button" name="" value="Place Order">
+
+				
+			</div>
+
+		</form>
+
+			<!-- Practice area end -->
+		</section>
+
+		<section class="preview" data-content="lesson 2-11: Using Forms and Buttons">
+			<img width="903px" src="images/reference/order-form.png" alt="Reference image" />
+		</section>
+	</body>
+</html>
